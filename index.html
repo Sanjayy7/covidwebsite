@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVIDPROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>COVIDPROJECT</h1>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#dashboards" class="nav-link" data-section="dashboards">Dashboards</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#vaccine-plan" class="nav-link" data-section="vaccine-plan">Vaccine Plan</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#dataset-methods" class="nav-link" data-section="dataset-methods">Dataset & Methods</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content fade-in-up">
+                <h1 id="covid-title"
+                style="font-size: 4rem !important; font-weight: 900 !important; letter-spacing: 2px !important; text-align: center !important; line-height: 1.1 !important; margin-top: 0.6em !important; margin-bottom: 0.6em !important; color: #32b8c6 !important;">
+                COVIDPROJECT</h1>
+                <p class="hero-subtitle">Data-Driven Pandemic Analytics for India</p>
+                    <p class="hero-description">
+                    The COVID-19 pandemic has profoundly affected India's diverse states and populations in unique ways. This project synthesizes vast amounts of data using Tableau dashboards to track historical case trends, offer forecasting models, present vaccine distribution frameworks, and provide accessible interactive experiences.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="8">0</span>
+                        <span class="stat-label">Interactive Dashboards</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="28">0</span>
+                        <span class="stat-label">States Analyzed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="1800">0</span>
+                        <span class="stat-label">Days of Data</span>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="#dashboards" class="btn btn--primary btn--lg">Explore Dashboards</a>
+                    <a href="#dataset-methods" class="btn btn--outline btn--lg">View Methodology</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section id="capabilities" class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Project Capabilities</h2>
+                <p>Comprehensive COVID-19 analytics powered by data science</p>
+            </div>
+
+            <div class="capabilities-grid">
+                <div class="capability-card fade-in-up" data-delay="100">
+                    <span class="capability-icon">📈</span>
+                    <h3>Historical Trend Analysis</h3>
+                    <p>Track historical case trends and identify pandemic waves across India's diverse states</p>
+                </div>
+
+                <div class="capability-card fade-in-up" data-delay="200">
+                    <span class="capability-icon">🔮</span>
+                    <h3>Forecasting Models</h3>
+                    <p>Offer forecasting models projecting upcoming case numbers with statistical confidence</p>
+                </div>
+
+                <div class="capability-card fade-in-up" data-delay="300">
+                    <span class="capability-icon">💉</span>
+                    <h3>Vaccine Distribution</h3>
+                    <p>Present a data-driven vaccine distribution framework prioritizing high-risk regions</p>
+                </div>
+
+                <div class="capability-card fade-in-up" data-delay="400">
+                    <span class="capability-icon">🎯</span>
+                    <h3>Interactive Experience</h3>
+                    <p>Provide an accessible, interactive experience for policymakers, researchers, and the public</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboards Section -->
+    <section id="dashboards" class="section dashboards-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Interactive Dashboards</h2>
+                <p>Explore comprehensive COVID-19 analytics through our interactive visualizations</p>
+            </div>
+
+            <div class="dashboards-grid">
+                <!-- Daily Cases Timeline -->
+                <div class="dashboard-card fade-in-up" data-delay="100">
+                    <div class="dashboard-preview">
+                        <div class='tableauPlaceholder' id='viz1754230182232' style='position: relative; width: 100%; height: 100%;'>
+                            <noscript><a href='#'><img alt='Daily Cases Timeline ' src='https://public.tableau.com/static/images/Da/DailyCases2/Sheet1/1_rss.png' style='border: none' /></a></noscript>
+                            <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='DailyCases2/Sheet1' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https://public.tableau.com/static/images/Da/DailyCases2/Sheet1/1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en-US' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <h3>Daily Cases Timeline</h3>
+                        <p>Visualize the rise and fall of cases in major states over time. Track pandemic waves, identify peak periods, and understand the temporal patterns of COVID-19 spread across different regions.</p>
+                        <button class="btn btn--primary view-dashboard-btn" onclick="openDashboard('Daily Cases Timeline', 'viz1754230182232')">View Full Dashboard</button>
+                    </div>
+                </div>
+
+                <!-- Top States Cases -->
+                <div class="dashboard-card fade-in-up" data-delay="200">
+                    <div class="dashboard-preview">
+                        <div class='tableauPlaceholder' id='viz1754230238903' style='position: relative; width: 100%; height: 100%;'>
+                            <noscript><a href='#'><img alt='Top States Cases ' src='https://public.tableau.com/static/images/Da/DailyCases2/Sheet2/1_rss.png' style='border: none' /></a></noscript>
+                            <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='DailyCases2/Sheet2' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https://public.tableau.com/static/images/Da/DailyCases2/Sheet2/1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en-US' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <h3>Top States Cases</h3>
+                        <p>See spatial distribution of cases and vaccination coverage across India. Identify hotspots, understand geographic patterns, and track the effectiveness of containment measures.</p>
+                        <button class="btn btn--primary view-dashboard-btn" onclick="openDashboard('Top States Cases', 'viz1754230238903')">View Full Dashboard</button>
+                    </div>
+                </div>
+
+                <!-- Cases By State -->
+                <div class="dashboard-card fade-in-up" data-delay="300">
+                    <div class="dashboard-preview">
+                        <div class='tableauPlaceholder' id='viz1754230311201' style='position: relative; width: 100%; height: 100%;'>
+                            <noscript><a href='#'><img alt='Cases By State ' src='https://public.tableau.com/static/images/Da/DailyCases2/Sheet3/1_rss.png' style='border: none' /></a></noscript>
+                            <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='DailyCases2/Sheet3' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https://public.tableau.com/static/images/Da/DailyCases2/Sheet3/1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en-US' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <h3>Cases By State</h3>
+                        <p>Compare the pandemic's impact across Indian states. Analyze relative performance, recovery rates, and understand how different states managed the crisis.</p>
+                        <button class="btn btn--primary view-dashboard-btn" onclick="openDashboard('Cases By State', 'viz1754230311201')">View Full Dashboard</button>
+                    </div>
+                </div>
+
+                <!-- Cases Forecast -->
+                <div class="dashboard-card fade-in-up" data-delay="400">
+                    <div class="dashboard-preview">
+                        <div class='tableauPlaceholder' id='viz1754230388011' style='position: relative; width: 100%; height: 100%;'>
+                            <noscript><a href='#'><img alt='Cases Forecast ' src='https://public.tableau.com/static/images/Da/DailyCases2/Sheet5/1_rss.png' style='border: none' /></a></noscript>
+                            <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='DailyCases2/Sheet5' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https://public.tableau.com/static/images/Da/DailyCases2/Sheet5/1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en-US' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <h3>Cases Forecast</h3>
+                        <p>View data-driven projections to aid preparation and planning. Access weekly and monthly predictions, confidence intervals, and scenario analysis for informed decision-making.</p>
+                        <button class="btn btn--primary view-dashboard-btn" onclick="openDashboard('Cases Forecast', 'viz1754230388011')">View Full Dashboard</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vaccine Plan Section -->
+    <section id="vaccine-plan" class="section vaccine-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Vaccine Distribution Plan</h2>
+                <p>Data-driven approach to equitable and effective vaccine delivery</p>
+            </div>
+
+            <div class="vaccine-content">
+                <div class="vaccine-features">
+                    <div class="vaccine-feature fade-in-up" data-delay="100">
+                        <span class="feature-icon">🎯</span>
+                        <div class="feature-content">
+                            <h3>Priority Rankings</h3>
+                            <p>Priority rankings for vaccine allocations based on risk factors, population density, and healthcare infrastructure capacity</p>
+                        </div>
+                    </div>
+
+                    <div class="vaccine-feature fade-in-up" data-delay="200">
+                        <span class="feature-icon">📊</span>
+                        <div class="feature-content">
+                            <h3>Coverage Gaps</h3>
+                            <p>Visualization of coverage gaps to identify underserved areas and optimize resource allocation for maximum impact</p>
+                        </div>
+                    </div>
+
+                    <div class="vaccine-feature fade-in-up" data-delay="300">
+                        <span class="feature-icon">💡</span>
+                        <div class="feature-content">
+                            <h3>Strategic Recommendations</h3>
+                            <p>Recommendations supporting equitable and effective vaccine delivery based on data analysis and predictive modeling</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vaccine Plan Dashboards -->
+                <div class="dashboards-grid">
+                    <!-- Fatality Rate -->
+                    <div class="dashboard-card fade-in-up" data-delay="100">
+                        <div class="dashboard-preview">
+                            <div class='tableauPlaceholder' id='viz1754230872568' style='position: relative; width: 100%; height: 100%;'>
+                                <noscript><a href='#'><img alt='Fatality Rate ' src='https://public.tableau.com/static/images/va/vaccineplan1/Sheet1/1_rss.png' style='border: none' /></a></noscript>
+                                <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                    <param name='embed_code_version' value='3' /> 
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='vaccineplan1/Sheet1' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image' value='https://public.tableau.com/static/images/va/vaccineplan1/Sheet1/1.png' /> 
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                    <param name='language' value='en-US' />
+                                    <param name='filter' value='publish=yes' />
+                                </object>
+                            </div>
+                        </div>
+                        <div class="dashboard-content">
+                            <h3>Fatality Rate</h3>
+                            <p>State-wise COVID-19 fatality rates to identify high-risk regions requiring immediate vaccine priority and healthcare resource allocation.</p>
+                            <button class="btn btn--primary view-dashboard-btn" onclick="openDashboard('Fatality Rate', 'viz1754230872568')">View Full Dashboard</button>
+                        </div>
+                    </div>
+
+                    <!-- Vaccination Coverage Heatmap -->
+                    <div class="dashboard-card fade-in-up" data-delay="200">
+                        <div class="dashboard-preview">
+                            <div class='tableauPlaceholder' id='viz1754230913033' style='position: relative; width: 100%; height: 100%;'>
+                                <noscript><a href='#'><img alt='Vaccination coverage heatmap ' src='https://public.tableau.com/static/images/va/vaccineplan1/Sheet2/1_rss.png' style='border: none' /></a></noscript>
+                                <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                    <param name='embed_code_version' value='3' /> 
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='vaccineplan1/Sheet2' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image' value='https://public.tableau.com/static/images/va/vaccineplan1/Sheet2/1.png' /> 
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                    <param name='language' value='en-US' />
+                                    <param name='filter' value='publish=yes' />
+                                </object>
+                            </div>
+                        </div>
+                        <div class="dashboard-content">
+                            <h3>Vaccination Coverage Heatmap</h3>
+                            <p>Geographic visualization of vaccination coverage across Indian states and districts to identify coverage gaps and optimize distribution strategies.</p>
+                            <button class="btn btn--primary view-dashboard-btn" onclick="openDashboard('Vaccination Coverage Heatmap', 'viz1754230913033')">View Full Dashboard</button>
+                        </div>
+                    </div>
+
+                    <!-- Vaccinated Under 18 -->
+                    <div class="dashboard-card fade-in-up" data-delay="300">
+                        <div class="dashboard-preview">
+                            <div class='tableauPlaceholder' id='viz1754230949370' style='position: relative; width: 100%; height: 100%;'>
+                                <noscript><a href='#'><img alt='Vaccinated under 18 ' src='https://public.tableau.com/static/images/va/vaccineplan1/Sheet3/1_rss.png' style='border: none' /></a></noscript>
+                                <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                    <param name='embed_code_version' value='3' /> 
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='vaccineplan1/Sheet3' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image' value='https://public.tableau.com/static/images/va/vaccineplan1/Sheet3/1.png' /> 
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                    <param name='language' value='en-US' />
+                                    <param name='filter' value='publish=yes' />
+                                </object>
+                            </div>
+                        </div>
+                        <div class="dashboard-content">
+                            <h3>Vaccinated Under 18</h3>
+                            <p>Vaccination coverage analysis for the under-18 population to support safe school reopening and community protection strategies.</p>
+                            <button class="btn btn--primary view-dashboard-btn" onclick="openDashboard('Vaccinated Under 18', 'viz1754230949370')">View Full Dashboard</button>
+                        </div>
+                    </div>
+
+                    <!-- Vaccinated Above 60 -->
+                    <div class="dashboard-card fade-in-up" data-delay="400">
+                        <div class="dashboard-preview">
+                            <div class='tableauPlaceholder' id='viz1754230994471' style='position: relative; width: 100%; height: 100%;'>
+                                <noscript><a href='#'><img alt='Vaccinated 60 Plus ' src='https://public.tableau.com/static/images/va/vaccineplan1/Sheet4/1_rss.png' style='border: none' /></a></noscript>
+                                <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                    <param name='embed_code_version' value='3' /> 
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='vaccineplan1/Sheet4' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image' value='https://public.tableau.com/static/images/va/vaccineplan1/Sheet4/1.png' /> 
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                    <param name='language' value='en-US' />
+                                    <param name='filter' value='publish=yes' />
+                                </object>
+                            </div>
+                        </div>
+                        <div class="dashboard-content">
+                            <h3>Vaccinated Above 60</h3>
+                            <p>Senior citizen vaccination tracking for the most vulnerable population group, ensuring priority coverage and booster dose monitoring.</p>
+                            <button class="btn btn--primary view-dashboard-btn" onclick="openDashboard('Vaccinated Above 60', 'viz1754230994471')">View Full Dashboard</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vaccine Framework -->
+                <div class="vaccine-framework fade-in-up">
+                    <h3>Strategic Framework</h3>
+                    <div class="framework-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Analyze Demographics</h4>
+                                <p>Analyze population demographics, comorbidity rates, and healthcare infrastructure</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Calculate Priority</h4>
+                                <p>Calculate priority scores based on multiple weighted factors and data points</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Optimize Distribution</h4>
+                                <p>Optimize vaccine distribution based on priority scores and logistical constraints</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Track Progress</h4>
+                                <p>Track vaccination progress and adjust strategies based on real-time data</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dataset & Methods Section -->
+    <section id="dataset-methods" class="section methods-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Dataset & Methods</h2>
+                <p>Transparent and reproducible data science approach</p>
+            </div>
+
+            <div class="methods-content">
+                <div class="fade-in-up">
+                    <h3>Data Sources</h3>
+                    <div class="sources-grid">
+                        <div class="source-card">
+                            <span class="source-icon">📊</span>
+                            <h4>Kaggle Dataset</h4>
+                            <p>Comprehensive daily case data across all Indian states and union territories</p>
+                        </div>
+
+                        <div class="source-card">
+                            <span class="source-icon">🏛️</span>
+                            <h4>Government Portals</h4>
+                            <p>Official health ministry data and state government health department statistics</p>
+                        </div>
+
+                        <div class="source-card">
+                            <span class="source-icon">🌐</span>
+                            <h4>Tableau Public</h4>
+                            <p>Public datasets and community-contributed COVID-19 analytics resources</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fade-in-up">
+                    <h3>Methodology</h3>
+                    <div class="method-steps">
+                        <div class="method-step">
+                            <span class="method-icon">🐍</span>
+                            <div class="method-content">
+                                <h4>Data Processing</h4>
+                                <p>Data cleaning and preparation conducted using Python and SQL to ensure data quality and consistency across all sources</p>
+                            </div>
+                        </div>
+
+                        <div class="method-step">
+                            <span class="method-icon">📈</span>
+                            <div class="method-content">
+                                <h4>Visualization</h4>
+                                <p>Visualizations constructed in Tableau Public using best practices for clarity, accessibility, and analytical insight</p>
+                            </div>
+                        </div>
+
+                        <div class="method-step">
+                            <span class="method-icon">🔮</span>
+                            <div class="method-content">
+                                <h4>Forecasting</h4>
+                                <p>Forecasts generated through statistical time series analysis using ARIMA models and confidence interval estimation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transparency fade-in-up">
+                    <h3>Transparency & Reproducibility</h3>
+                    <p>Our methodology emphasizes transparency and reproducibility in all analytical processes. All data transformations, statistical methods, and visualization techniques are documented to ensure that findings can be validated and extended by the research community.</p>
+
+                    <div class="transparency-features">
+                        <div class="transparency-item">
+                            <span class="check-icon">✓</span>
+                            <span>Open source data and methodology</span>
+                        </div>
+                        <div class="transparency-item">
+                            <span class="check-icon">✓</span>
+                            <span>Documented analytical processes</span>
+                        </div>
+                        <div class="transparency-item">
+                            <span class="check-icon">✓</span>
+                            <span>Reproducible statistical models</span>
+                        </div>
+                        <div class="transparency-item">
+                            <span class="check-icon">✓</span>
+                            <span>Community validation and feedback</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h6>COVIDPROJECT</h6>
+                    <p>Data-driven pandemic analytics for informed decision-making and public health policy.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#dashboards">Dashboards</a></li>
+                        <li><a href="#vaccine-plan">Vaccine Plan</a></li>
+                        <li><a href="#dataset-methods">Methodology</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Data Sources</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Kaggle COVID-19 India</a></li>
+                        <li><a href="#" target="_blank">Government Portals</a></li>
+                        <li><a href="#" target="_blank">Tableau Public</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 COVIDPROJECT. Data visualizations powered by Tableau Public.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Dashboard Details -->
+    <div id="dashboard-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Dashboard Details</h3>
+                <button class="modal-close" onclick="closeDashboard()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-dashboard-content">
+                    <!-- Dashboard content will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fullscreen Modal for Dashboards -->
+    <div id="fullscreen-modal">
+        <button id="close-modal" onclick="closeFullscreenModal()">×</button>
+        <div id="modal-content">
+            <!-- Dashboard will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
+    <script src="app.js"></script>
+    <script>
+  document.documentElement.setAttribute('data-color-scheme', 'dark');
+  </script>
+</body>
+</html>
